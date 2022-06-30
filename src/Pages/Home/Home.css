@@ -36,6 +36,20 @@
     transition: 0.5s;
 }
 
+.task-list h5 {
+    background-color: #2CC09C;
+    color: #ffffff;
+    padding: 20px 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.task-list h5:hover {
+    background-color: #5A55CA;
+    transition: 0.5s;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 567px) {
 
     .page-container {
@@ -56,6 +70,10 @@
     .submit-btn {
         width: 100%;
         margin: 16px 0 0;
+    }
+
+    .task-list h5 {
+        text-align: start;
     }
 
 }
