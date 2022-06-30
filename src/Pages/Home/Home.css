@@ -1,0 +1,61 @@
+.page-container {
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+}
+
+.single-section {
+    background-color: #F0F4FD;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.form-style {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.input-field {
+    border: 1px solid #5A55CA;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.submit-btn {
+    border: none;
+    border-radius: 8px;
+    background-color: #5A55CA;
+    color: white;
+    font-weight: 500;
+    padding: 10px 50px;
+}
+
+.submit-btn:hover {
+    background-color: #2CC09C;
+    transition: 0.5s;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 567px) {
+
+    .page-container {
+        padding: 80px 0;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .single-section {
+        padding: 40px 30px;
+        text-align: center;
+    }
+
+    .form-style {
+        display: block;
+    }
+
+    .submit-btn {
+        width: 100%;
+        margin: 16px 0 0;
+    }
+
+}
