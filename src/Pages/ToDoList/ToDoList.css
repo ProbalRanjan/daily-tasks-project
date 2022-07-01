@@ -1,0 +1,30 @@
+.section-container {
+    padding: 80px 180px;
+}
+
+.todoList-form {
+    background-color: #efeefa;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.edit-button {
+    border: none;
+    background-color: #2CC09C;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.edit-button:hover {
+    background-color: #5A55CA;
+    transition: 0.5s;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 567px) {
+
+    .section-container {
+        padding: 60px 0;
+    }
+
+}

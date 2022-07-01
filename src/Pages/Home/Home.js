@@ -21,8 +21,7 @@ const Home = () => {
             body: JSON.stringify(data),
         })
             .then(res => res.json())
-            .then((data) => {
-                console.log(data)
+            .then(() => {
                 reset()
             })
     }
@@ -47,9 +46,10 @@ const Home = () => {
                     </button>
                     {errors.task?.type === 'required' && <p style={{ color: "#F26950" }}>{errors.task.message}</p>}
                 </Form>
+
             </div>
             <div className='single-section' style={{ backgroundColor: "#eaf9f5" }}>
-                <h3 style={{ color: "#0B204C", fontWeight: "600" }}><FontAwesomeIcon icon={faListCheck} className="pe-2" />All Tasks List</h3>
+                <h3 style={{ color: "#0B204C", fontWeight: "600" }}><FontAwesomeIcon icon={faListCheck} className="pe-2" />Tasks List</h3>
 
                 <div className='task-list'>
                     {
